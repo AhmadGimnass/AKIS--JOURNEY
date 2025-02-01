@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- primary meta tag 
+      -->
+    <title>The Akis - Journey</title>
+    <meta name="title" content="The Akis - Journey">
+    <meta name="description" content="This is a travel html template made by codewithsadee">
+     <!-- Favicon
+       -->
+    <link rel="shortcut icon" href="./assets/images/red.ico" type="image/svg+xml">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Custom CSS --> 
+    <link rel="stylesheet" href="./assets/css/style.css">  
+
+    <!-- preload images-->
+
+    <link rel="preload" as="image" href="./assets/images/hero-banner.png">
+    <link rel="preload" as="image" href="./assets/images/preloader.svg">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
+
+  
+</head>
+<body>
+      
+    <!-- PRELOADER -->
+    <div class="preloader" data-preloader>
+        <div class="preloader-inner">
+            <img src="./assets/images/Desain tanpa judul.svg" width="50" height="50" alt="" class="img">
+        </div>
+    </div>
+    
+
+ 
+    <!-- HEADER -->
+    <header class="header active" data-header>
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="./assets/images/swan.svg" width="187" height="38" 
+                alt="logo">
+            </a>
+            <nav class="navbar" data-navbar>
+
+                <div class="navbar-top">
+                    <a href="#" class="logo">
+                        <img src="./assets/images/swan.svg" width="187" height="38" alt="Travelia Logo">
+                    </a>
+
+                <button class="nav-toggle-btn" aria-label="close menu" data-nav-toggler>
+                    <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+                </button>
+            </div>
+                <ul class="navbar-list">
+                    <li class="navbar-item"><a href="#home" class="navbar-link">Home</a></li>
+                    <li class="navbar-item"><a href="#about" class="navbar-link">Courses</a></li>
+                    <li class="navbar-item"><a href="#layanan" class="navbar-link">About</a></li>
+                    <li class="navbar-item"><a href="#Testimoni" class="navbar-link">Testimoni</a></li>
+                    <li class="navbar-item"><a href="#" class="navbar-link">Contact</a></li>
+                </ul>
+                <div class="header-action">
+                  <a href="#" class="login-btn">Login</a>
+                   <a href="#" class="btn btn-primary">Sign Up</a>
+              </div> 
+            </nav>
+            
+             <button class="nav-toggle-btn" aria-label="open Menu" data-nav-toggler>
+                <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+             </button>
+            <div class="overlay" data-overlay data-nav-toggler></div>
+        </div>
+    </header>
+    
+
+  <main>
+    <article>
+  
+      <!-- HERO  -->
+
+<section id="home" class="hero">
+    <div class="container">
+      <!-- Bagian kiri: konten teks -->
+      <div class="hero-content">
+        <p class="hero-subtitle">
+          Akis Journey 
+          <img src="./assets/images/jurni.jpg" width="20" height="20" alt="icon" class="img">
+        </p>
+        <h1 class="hero-title">
+          Kenali AKIS, Tempat Belajar dan Berkembang Bersama
+        </h1>
+        <p class="hero-text">
+          Kami berkomitmen untuk memberikan kepuasan dengan menyediakan berbagai pilihan terbaik untuk Anda.
+        </p>
+        <a href="#pricing" class="btn btn-secondary">
+          Contact
+        </a>
+        <button class="hero-btn" onclick="window.open('https://www.instagram.com/asramakampunginggris?igsh=dGQ5Y2J3dXQzcjhx', '_blank')">
+          <div class="btn-img">
+            <ion-icon name="play"></ion-icon>
+          </div>
+          <p class="text">Watch our Story</p>
+        </button>
+      </div>
+  
+      <!-- Bagian kanan: gambar -->
+      <figure class="hero-image">
+        <img src="./assets/images/HERO.jpg" alt="Hero Image" class="gambar-orang">
+      </figure>
+    </div>
+  </section>
+  
+
+    <!-- COURSES -->
+    
+    <section id="layanan" data-aos="fade-up" data-aos-duration="2000" class="section service">
+        <div class="container">
+            <!-- Header -->
+            <div class="title-wrapper">
+                <p class="section-subtitle">Kursus Terbaik yang Kami Tawarkan</p>
+                <h2 class="h2 title section-title">Pengalaman Belajar yang Menginspirasi</h2>
+                <p class="section-text">Manfaatkan Promo Belajar Seru Sekarang!</p>
+            </div>
+    
+            <!-- Service Wrapper -->
+            <div class="service-wrapper">
+                <!-- Card 1 -->
+                <div class="service-card">
+                    <div class="card-icon">
+                        <img src="./assets/images/4.png" alt="Speaking Icon">
+                    </div>
+                    <h3 class="card-title">Speaking</h3>
+                    <p class="card-text">Capai kepercayaan diri berbicara bahasa Inggris dengan latihan intensif dan bimbingan langsung dari mentor profesional.</p>
+                </div>
+    
+                <!-- Card 2 -->
+                <div class="service-card">
+                    <div class="card-icon">
+                        <img src="./assets/images/5.png" alt="Grammar Icon">
+                    </div>
+                    <h3 class="card-title">Grammar</h3>
+                    <p class="card-text">Kuasi tata bahasa Inggris dengan mudah melalui metode belajar yang terstruktur dan penjelasan yang praktis.</p>
+                </div>
+    
+
+                <!-- CARD 3 -->
+                <div class="service-card raised">
+                    <div class="card-icon">
+                        <img src="./assets/images/6.png" alt="Speaking Icon">
+                    </div>
+                    <h3 class="card-title">IELTS</h3>
+                    <p class="card-text">Capai kepercayaan diri berbicara bahasa Inggris dengan latihan intensif dan bimbingan langsung dari mentor profesional.</p>
+                </div>
+                
+                <!-- Card 4 -->
+                <div class="service-card">
+                    <div class="card-icon">
+                        <img src="./assets/images/7.png" alt="Pronunciation Icon">
+                    </div>
+                    <h3 class="card-title">Pronunciation</h3>
+                    <p class="card-text">Perbaiki pelafalan Anda agar lebih natural dan profesional dengan teknik belajar yang efektif.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+
+
+     <!-- ABOUT -->
+     
+ <section class="section about" data-aos="fade-up" data-aos-duration="2000" aria-label="about">
+    <div class="container">
+      <div class="about-wrapper">
+        <div class="about-text">
+          <p class="section-subtitle">Tentang Kami</p>
+          <h2 class="h2 title section-title">Selamat Datang di AKIS</h2>
+          <p>
+            AKIS (Asrama Kampung Inggris Makassar) adalah tempat terbaik untuk mempercepat kemampuan Anda dalam berbahasa Inggris. 
+            Kami menyediakan lingkungan belajar yang interaktif, program intensif, dan fasilitas modern untuk mendukung pembelajaran Anda.
+          </p>
+          <p>
+            Dengan mentor berpengalaman dan metode pembelajaran yang inovatif, kami membantu Anda mencapai kepercayaan diri dalam berkomunikasi secara global.
+          </p>
+          <p>
+            Mari bergabung dengan komunitas kami dan raih kesuksesan dalam menguasai bahasa Inggris untuk masa depan Anda.
+          </p>
+          <a href="#learn-more" class="btn btn-primary">Pelajari Lebih Lanjut</a>
+        </div>
+  
+        <div class="about-image">
+          <img src="./assets/images/about.jpg" alt="Tentang AKIS" class="img-cover">
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+     <!-- TESTIMONI -->
+
+    <section id="Testimoni" class="section testimonial" data-aos="fade-up" data-aos-duration="2000" aria-label="testimonial">
+        <div class="container">
+          <h2 class="h2 title section-title">Testimoni Peserta AKIS</h2>
+          <div class="testimonial-wrapper">
+            <!-- Card 1 -->
+            <div class="testimonial-card">
+              <div class="stars">
+                <span>★★★★★</span>
+              </div>
+              <p class="testimonial-text">
+                "Belajar di AKIS sangat menyenangkan! Saya bisa meningkatkan kemampuan bahasa Inggris dengan cepat. 
+                Metode pengajarannya efektif, dan suasana belajar yang nyaman membuat saya semakin percaya diri."
+              </p>
+              <div class="testimonial-author">
+                <img src="./assets/images/8.png" alt="Debby Melinda" class="author-img">
+                <div>
+                  <p class="author-name">Debby Melinda</p>
+                  <p class="author-role">Mahasiswa</p>
+                </div>
+              </div>
+            </div>
+      
+            <!-- Card 2 -->
+            <div class="testimonial-card">
+              <div class="stars">
+                <span>★★★★★★</span>
+              </div>
+              <p class="testimonial-text">
+                "AKIS memberikan pengalaman belajar yang luar biasa. Dengan harga terjangkau, saya mendapatkan akses 
+                ke program belajar yang fleksibel dan didukung pengajar yang profesional."
+              </p>
+              <div class="testimonial-author">
+                <img src="./assets/images/9.png" alt="Gusti Bagus" class="author-img">
+                <div>
+                  <p class="author-name">Gusti Bagus</p>
+                  <p class="author-role">Karyawan Swasta</p>
+                </div>
+              </div>
+            </div>
+      
+            <!-- Card 3 -->
+            <div class="testimonial-card">
+              <div class="stars">
+                <span>★★★★★★</span>
+              </div>
+              <p class="testimonial-text">
+                "Saya sangat merekomendasikan AKIS! Selain belajar bahasa Inggris, saya juga merasa seperti keluarga 
+                di sini. Para pengajar dan teman-teman sangat mendukung perkembangan saya."
+              </p>
+              <div class="testimonial-author">
+                <img src="./assets/images/10.png" alt="Bintang Kusuma" class="author-img">
+                <div>
+                  <p class="author-name">Bintang Kusuma</p>
+                  <p class="author-role">Wirausaha</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+ 
+
+      <!-- #CTA -->
+       
+      <section class="section cta" data-aos="fade-up" data-aos-duration="2000" aria-label="call to action">
+        <div class="container">
+      
+          <div class="cta-card has-bg-image" style="background-image: url('./assets/images/cta-bg.jpg');">
+      
+            <h2 class="h2 title section-title">Siapkan Dirimu & Raih Impian dengan Belajar di AKIS
+              <img src="./assets/images/AKIS.jpg" width="36" height="36"
+              loading="lazy" alt="icon" class="img">
+            </h2>
+      
+            <p class="section-text">
+              Kami memiliki banyak program spesial untuk membantu Anda meningkatkan kemampuan bahasa Inggris.
+            </p>
+      
+            <a href="#pricing" class="btn btn-primary">Mulai Sekarang</a>
+      
+          </div>
+      
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+   <!-- FOOTER -->
+    
+   <footer class="footer" data-aos="fade-up" data-aos-duration="2000">
+    <div class="container">
+
+        <div class="footer-top">
+
+            <div class="footer-brand">
+
+                <a href="#" class="logo">
+                    <img src="./assets/images/swan.svg" width="187" height="38"
+                    alt="logo">
+                </a>
+                
+                <p class="footer-text">
+                  Kami selalu membuat pelanggan kami
+                  senang dengan menyediakan sebanyak mungkin
+                  pilihan
+                </p>
+
+                <ul class="social-list">
+
+                    <li>
+                        <a href="https://www.instagram.com/ahmd28gimnas?utm_source=qr&igsh=MXJobXEwYm84NmVvbg==" class="social-link">
+                            <ion-icon name="logo-instagram"></ion-icon>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-facebook"></ion-icon>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-twitter"></ion-icon>
+                        </a>
+                    </li>
+
+
+                </ul>
+
+            </div>
+
+            <ul class="footer-list">
+
+                <li>
+                    <p class="footer-list-title">About</p>
+                </li>
+
+                <li>
+                    <a href="#" class="footer-link">About Us</a>
+                </li>
+
+                <li>
+                    <a href="#" class="footer-link">Features</a>
+                </li>
+
+                <li>
+                    <a href="#" class="footer-link">News</a>
+                </li>
+
+                <li>
+                    <a href="#home" class="footer-link">Menu</a>
+                </li>
+
+
+            </ul>
+
+            <ul class="footer-list">
+
+                <li>
+                    <p class="footer-list-title">Company</p>
+                </li>
+
+                <li>
+                    <a href="#" class="footer-link">Why Company</a>
+                </li>
+
+                <li>
+                    <a href="#" class="footer-link">Partner With Us</a>
+                </li>
+
+                <li>
+                    <a href="#" class="footer-link">FAQ</a>
+                </li>
+
+                <li>
+                    <a href="#" class="footer-link">Blog</a>
+                </li>
+
+
+            </ul>
+
+            <ul class="footer-list">
+
+                <li>
+                    <p class="footer-list-title">Support</p>
+                </li>
+
+                <li>
+                    <a href="https://www.instagram.com/ahmd28gimnas?utm_source=qr&igsh=MXJobXEwYm84NmVvbg==" class="footer-link">Account</a>
+                </li>
+
+                <li>
+                    <a href="#" class="footer-link">Support Center</a>
+                </li>
+
+                <li>
+                    <a href="#" class="footer-link">Feedback</a>
+                </li>
+
+                <li>
+                    <a href="#" class="footer-link">Contact Us</a>
+                </li>
+
+                <li>
+                    <a href="#" class="footer-link">Accessibility</a>
+                </li>
+
+
+
+            </ul>
+
+            <div id="contact" class="footer-list">
+
+                <p class="footer-list-title">Get in Touch</p>
+
+                <p class="footer-text">
+                    Question or feedback? We’d love to hear from you.
+                </p>
+
+                <form action="" class="input-wrapper">
+                    <input type="email" name="email_address" placeholder="Email Address" autocomplete="off" required 
+                    class="input-field">
+
+                    <button type="submit" class="input-btn" 
+                    aria-label="send a message">
+                    <ion-icon name="paper-plane-outline" aria-hidden="true"></ion-icon>
+                    </button>
+                </form>
+
+            </div>
+
+
+        </div>
+
+        <div class="footer-bottom">
+
+            <p class="copyright">
+                Copyright 2025. Made by <a href="https://youtube.com/@codewithsadee" class="copyright-link">Ahmad Gimnastiar
+                </a>
+            </p>
+
+            <ul class="footer-bottom-list">
+                <li>
+                    <a href="#" class="footer-bottom-link">Terms and Condition</a>
+                </li>
+
+                <li>
+                    <a href="#" class="footer-bottom-link">Privacy and Policy</a>
+                </li>
+            </ul>
+
+        </div>
+
+    </div>
+</footer>
+
+    <!-- CUSTOM JS -->
+    <script src="./assets/js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+    <!-- Ionicon link -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
